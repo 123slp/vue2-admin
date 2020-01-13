@@ -1,0 +1,14 @@
+// 混合 方法
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.pct(@pct) {
+  width: @pct;
+  position: relative;
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+@import './variables.less';
+.colorBtn(@blue) {
+    background: @blue;
+
+    &:hover {
+      color: @blue;
+
+      &:before,
+      &:after {
+        background: @blue;
+      }
+    }
+}
